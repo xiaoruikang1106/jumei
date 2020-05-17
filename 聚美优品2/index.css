@@ -170,10 +170,10 @@ html {
 }
 .shopMall .header_middle {
   display: inline-block;
-  width: 1349px;
+  width: 1199px;
   height: 100px;
-  margin-top: 50px;
-  margin-left: 150px;
+  padding-left: 150px;
+  padding-top: 50px;
   /*.header_middle_logo{
             position: absolute;
             left: 150px;
@@ -184,9 +184,6 @@ html {
   float: left;
 }
 .shopMall .header_middle .header_middle_search {
-  /*position: absolute;
-            left: 470px;
-            top: 0;*/
   margin-left: 150px;
 }
 .shopMall .header_middle .header_middle_search .header_middle_search_up {
@@ -236,7 +233,7 @@ html {
   text-align: center;
 }
 .shopMall .header_bottom {
-  width: 100%;
+  width: 1349px;
   line-height: 36px;
   height: 36px;
   background: #1f1f1f;
@@ -420,9 +417,10 @@ html {
 .shopMall .footer {
   width: 1349px;
   border-top: 1px solid red;
+  position: relative;
 }
 .shopMall .footer .footer_top {
-  width: 100%;
+  width: 1199px;
   height: 240px;
   margin-left: 135px;
 }
@@ -434,9 +432,9 @@ html {
   float: left;
 }
 .shopMall .footer .footer_face {
-  width: 1111px;
+  width: 1199px;
   border-top: 1px solid #8f8f8f;
-  margin: 0 auto;
+  margin: 0 100px;
 }
 .shopMall .footer .footer_face .footer_face_left {
   padding-top: 25px;
@@ -469,16 +467,16 @@ html {
 }
 .shopMall .bottom {
   margin-top: 40px;
-  width: 1366px;
+  width: 1349px;
 }
 .shopMall .bottom .footer_arm {
-  width: 100%;
+  width: 1349px;
   height: 50px;
   line-height: 50px;
   background: #525252;
 }
 .shopMall .bottom .footer_arm .footer_arm_top {
-  margin-left: 100px;
+  margin-left: 80px;
 }
 .shopMall .bottom .footer_arm .footer_arm_top a {
   margin-left: 20px;
@@ -488,6 +486,7 @@ html {
   margin-left: -20px;
 }
 .shopMall .bottom .footer_eyes {
+  width: 1239px;
   height: 100%;
   padding-top: 15px;
   padding-left: 100px;
