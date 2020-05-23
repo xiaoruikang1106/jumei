@@ -1,32 +1,3 @@
-let $detail = $('.header_top_right_bottom1');
-let $header = $('.header_top_right');
-let $cur = $header.find('#cur');
-$cur.click(function (ev) {
-	let target = ev.target,
-		$target = $(target);
-	if ($target.hasClass('#cur')) {
-		$detail.slideToggle(300);
-		return;
-	}
-		$detail.slideToggle(300);
-});
-$cur.click(function (ev) {
-	ev.stopPropagation();
-});
-let $more = $('.header_top_right_bottom2');
-let $cue = $header.find('#cue');
-$cue.click(function (ev) {
-	let target = ev.target,
-		$target = $(target);
-	if ($target.hasClass('#cue')) {
-		$more.slideToggle(300);
-		return;
-	}
-	$more.slideToggle(300);
-});
-$cue.click(function (ev) {
-	ev.stopPropagation();
-});
 let $in = $('.header_middle_car_in');
 let $middleList = $('.header_middle')
 let $cun = $middleList.find('.header_middle_car');
@@ -42,3 +13,21 @@ $cun.click(function (ev) {
 $cun.click(function (ev) {
 	ev.stopPropagation();
 });
+window.onscroll = function () {
+	let sT = document.documentElement.scrollTop,
+		cH = document.documentElement.clientHeight;
+	if (sT >= cH) {
+		coom.style.display = 'block';
+	} else {
+		coom.style.display = 'none';
+	}
+};
+cood.onclick = function () {
+	document.documentElement.scrollTop = 0;
+};
+cool.onclick = function () {
+	document.documentElement.scrollTop = 600;
+};
+coos.onclick = function () {
+	document.documentElement.scrollTop = 650;
+};
